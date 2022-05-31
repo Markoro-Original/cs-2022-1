@@ -10,11 +10,12 @@
 
 
 # Rest API
+
 ## Introdução e Conceitos
 
 &nbsp;&nbsp;&nbsp;Rest API é uma interface de programação de aplicações que posibilita interações com serviçoes web seguindo as restrições do estilo de arquitetura Rest.
 
-### API
+## API
 
 &nbsp;&nbsp;&nbsp;Uma API, sigla em inglês para "Application Programming Interface" (Interface de Programação Aplicada), nada mais é que o conjunto de protocolos que serão utilizados durante a integração ou uso de aplicações de sofrware.
 
@@ -22,7 +23,7 @@
 
 &nbsp;&nbsp;&nbsp;Além da comunicação, outra vatagem do uso de API é a abstração fornecida, não sendo necessário a total compreenção do funcionamento de um sistema para que se possa utilizá-lo de maneira eficiente.
 
-### Rest
+## Rest
 
 &nbsp;&nbsp;&nbsp;Rest é uma arquitetura computacional criada por Roy Fielding em 2000 na sua tese de doutorado, na qual ele descrevia uma arquitetura de software que servisse para aplicações em rede. O nome Rest é uma sigla que, em inglês, significa "Tansferência de Estado Representacional".
 
@@ -30,7 +31,7 @@
 
 &nbsp;&nbsp;&nbsp;A aplicação mais conhecida de Rest é a própria World Wide Web, que utilizou a arquitetura como base para o desenvolvimento do HTTP 1.1. Quando uma solicitação usando uma API Rest é feita, é transferida uma representação do estado do recurso ao solicitante ou endpoint. Essa representação é entregue via HTTP utilizando um dos vários formatos possíveis: Javascript Object Notation (JSON), HTML, XLT, Python, PHP ou texto sem formatação.
 
-### Principais Características
+## Principais Características
 
 &nbsp;&nbsp;&nbsp;Para uma API ser considerada RESTful, ela precisa está em conformidade com algumas características importantes:
 
