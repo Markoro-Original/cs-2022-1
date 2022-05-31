@@ -29,7 +29,12 @@
 
         Não tenho conhecimento sobre bancos de dados não relacionais.
 9. Tem conhecimento a respeito de controle de versões? Sabe usar corretamente softwares de controle de versão, dentre eles o _github_?
+
+        Tenho conhecimento prévio do uso de Git e Github através da ferramenta Github Desktop, mas agora estou me aprofundando
+        no uso de linhas de comando, e depois irei iniciar um estudo para entender melhor o uso de branches.
 10. Tem conta no _github_?
+
+        Sim, meu usuário no github é Markoro-Original.
 
 
   9.1.  Se sim:
@@ -41,13 +46,11 @@
       *  Crie um repositório com o nome **cs-2022-1** e compartilhe com o professor.Meu usuário no _github_ é **gilmarioArantes**;
 
 10. Você possui algum impedimento para trabalhar em equipe?
+
+        Durante a semana, faço estágio meio período durante a tarde, e tenho as aulas da faculdade pela noite, tendo apenas a manhã
+        para fazer reuniões com a equipe. Já durante os finais de semana, tenho aulas na auto-escola, porém elas não ocupam o o dia
+        todo, então eu diria que não tenho impedimentos graves para trabalhar em equipe.
 11. Você possui equipamento adequado para a implementação das atividades relacionadas à disciplina? Atividades complementares, extra-classe.
 
-INSTRUÇÕES:
-1. Este é um arquivo no formato _markdown_ (.md), caso você precise de orientações a respeito da forma como editar este tipo de arquivo, acesso este [link](https://guides.github.com/features/mastering-markdown/);
-2. No seu repositório cs-2022-1, crie a pasta aula01;
-3. Adicione este arquivo nesta nova pasta;
-4. Responda ao questionário constante do arquivo;
-5. Remova esta Seção de INSTRUÇÕES, do arquivo respondido.
-6. Faça o _Commit_ do arquivo atualizado com suas respostas.
-7. Isso deve ser feito até as 23h59min do dia 28/07/2021.
+        Sim, tenho computador pessoal e conecção a internet, e imagino que seja o suficiente para implementar as atividades da
+        disciplina.
