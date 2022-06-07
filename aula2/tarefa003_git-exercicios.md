@@ -4,13 +4,35 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 
 1. Qual o comando para obter a versão instalada do Git?
+
+  git --version
+
 2. Qual o efeito da execução de cada um dos comandos abaixo?
+
   a. git help
+  
+Apresenta uma lista de comandos git comumente usados.
+
   b. git help checkout
+
+Exibe a documentação completa do comando **git checkout**.
+
   c. git help merge
+
+Exibe a documentação completa do comando **git merge**.
+
   d. git init
+
+Inicia um repositório git vazio no diretório atual.
+
   e. git add --all
+
+Adiciona todos os arquivos do diretório atual à lista de arquivos monitorados pelo git. Em outras palavras: adiciona todos os arquivos do diretório ao stage.
+
   f. git add -u
+  
+Teste
+  
   g. git config -l
   h. git mv a.txt b.txt
   i. git reset --hard
