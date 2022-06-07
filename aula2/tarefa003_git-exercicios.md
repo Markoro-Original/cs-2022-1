@@ -31,11 +31,20 @@ Adiciona todos os arquivos do diretório atual à lista de arquivos monitorados 
 
   f. git add -u
   
-Teste
+Adiciona à lista de arquivos monitorados apenas arquivos que foram modificados ou removidos, não adicionando nenhum arquivo novo. Em outras palavras: atualiza os arquivos que já estão no stage, sem adicionar novos arquivos.
   
   g. git config -l
+
+Exibe uma lista das configurações que o git conseguir encontrar.
+
   h. git mv a.txt b.txt
+
+Adiciona o arquivo b.txt à lista de arquivos monitorados e remove o arquivo a.txt da lista de arquivos monitorados.
+
   i. git reset --hard
+
+Irá descartar todas as mudanças que não foram comitadas, estando elas no stage ou não.
+
   j. git log -27
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
