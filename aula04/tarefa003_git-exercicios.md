@@ -93,7 +93,7 @@ $ git status -u
 6. Qual o comando para efetuar um _commit_?
 
 ```
-$ git commit
+$ git commit -m"<mensagem>"
 ```
 
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
@@ -105,7 +105,7 @@ $ git checkout -- teste.txt
 8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
 
 ```
-
+Para que um diretório seja ignorado pelo git, é preciso criar o arquivo ".gitignore" e dentro dele, colocar o nome do diretório que deve ser ignorado.
 ```
 
 9. O que acontece se o seu repositório local for acidentalmente removido?
