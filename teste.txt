@@ -1,0 +1,20 @@
+Dúvidas 
+
+-Delimitadores de término de linha:
+	git config --global core.autocrlf true
+	git config --global core.safecrlf warn
+
+-Diferença do status do master e status do file
+	vi hello.html 		//modificação no file
+	git checkout master 	//vai pra master
+	git status 		//vê que tem alteração que não tá no stage
+	git checkout hello.html //vai pro file
+	git status		//vê o status do file e não acusa alteração
+
+-Não consigo reverter commit
+	git reverse HEAD 		//não funciona
+	git reverse HEAD --no--edit 	//parece ter revertido, mas não aparece no log
+
+-Movi os arquivos para uma pasta, mas no github aparece a pasta com os arquivos
+ e os arquivos fora da pasta
+-Consegui excluir os arquivos, mas fiquei com dúvida no "pull request"
