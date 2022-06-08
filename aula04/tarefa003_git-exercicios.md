@@ -93,7 +93,7 @@ $ git status -u
 6. Qual o comando para efetuar um _commit_?
 
 ```
-$ git commit -m"<mensagem>"
+$ git commit -m <mensagem>
 ```
 
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
@@ -111,43 +111,45 @@ Para que um diretório seja ignorado pelo git, é preciso criar o arquivo ".giti
 9. O que acontece se o seu repositório local for acidentalmente removido?
 
 ```
-
+Caso o repositório local seja removido, ainda é possível clonar o repositório remoto, caso exista um.
 ```
 
 10. Como clonar um repositório remoto?
 
 ```
-
+Basta usar o comando
+$ git clone <HTTPS do repositório remoto>
 ```
 
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
 
 ```
-
+$ git log --oneline
 ```
 
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
 
 ```
-
+Para saber onde se encontra o arquivo com as configurações do git, basta executar o comando
+$ git config --list --show-origin
 ```
 
 13. Qual o comando para criar um repositório local?
 
 ```
-
+$ git init
 ```
 
 14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
 
 ```
-
+.git
 ```
 
 15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
 
 ```
-
+git add --all
 ```
 
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
