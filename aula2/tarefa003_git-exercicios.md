@@ -46,6 +46,9 @@ Adiciona o arquivo b.txt à lista de arquivos monitorados e remove o arquivo a.t
 Irá descartar todas as mudanças que não foram comitadas, estando elas no stage ou não.
 
   j. git log -27
+
+Exibe uma lista dos últimos 27 commits realizados.
+  
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
