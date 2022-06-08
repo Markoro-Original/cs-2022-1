@@ -38,13 +38,13 @@ Inicia um repositório git vazio no diretório atual.
   e. git add --all
 
 ```
-Adiciona todos os arquivos do diretório atual à lista de arquivos monitorados pelo git. Em outras palavras: adiciona todos os arquivos do diretório ao stage.
+Adiciona todos os arquivos do diretório atual à lista de arquivos monitorados pelo git. Em outras palavras: adiciona todos os arquivos do diretório ao index.
 ```
 
   f. git add -u
   
 ```
-Adiciona à lista de arquivos monitorados apenas arquivos que foram modificados ou removidos, não adicionando nenhum arquivo novo. Em outras palavras: atualiza os arquivos que já estão no stage, sem adicionar novos arquivos.
+Adiciona à lista de arquivos monitorados apenas arquivos que foram modificados ou removidos, não adicionando nenhum arquivo novo. Em outras palavras: atualiza os arquivos que já estão no index, sem adicionar novos arquivos.
 ```
   
   g. git config -l
@@ -62,7 +62,7 @@ Adiciona o arquivo b.txt à lista de arquivos monitorados e remove o arquivo a.t
   i. git reset --hard
 
 ```
-Irá descartar todas as mudanças que não foram comitadas, estando elas no stage ou não.
+Irá descartar todas as mudanças que não foram comitadas, estando elas no index ou não.
 ```
 
   j. git log -27
@@ -155,19 +155,21 @@ git add --all
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
 
 ```
-
+Para identificar cada commit feito, o git usa funções hash SHA1, que levam em consideração o conteúdo do commit, gerando ao final uma string de 40 caracteres hexadeciamais.
+O propósito disso é justamente a identificação única de cada commit feito localmente, para que seja fácil a navegação entre eles.
+SHA1 é uma função hash de criptografia projetada pela Agência de Segurança Nacional dos Estados Unidos.
 ```
 
 17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
 
 ```
-
+HEAD
 ```
 
 18. Quando se cria dois arquivos usando um editor de texto qualquer e, na sequência, executamos o comando **git add -u**, os dois arquivos criados passam de _untracked_ para _new file_?
 
 ```
-
+Não, pois o comando $ git add -u apenas atualiza os arquivos que já estão no index e foram modificados ou removidos, sem adicionar novos arquivos.
 ```
 
 19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
