@@ -269,13 +269,14 @@ o arquivo x.txt irá ser retirado do index, mas as alterações do arquivo serã
 33. Após alterar o conteúdo de um arquivo committed em passo anterior, qual o efeito do comando **git checkout -- a.txt**?
 
 ```
-Move o ponteiro do HEAD para um commit específico.
+Esse comando irá descartar as modificações feitas em arquivos que não estão no index..
 ```
 
 34. Qual a diferença entre os comandos **git reset HEAD a.txt** e **git checkout -- a.txt**?
 
 ```
-No git reset, os arquivo a.txt é retirado do index e no git checkout, ele permanece no index.
+No git reset, os arquivo a.txt é retirado do index mas mantém as alterações.
+No git checkout, o arquivo perderá as alterações feitas, caso ele permanece não esteja no index.
 ```
 
 35. Veja como interpretar o resultado de git diff [aqui](https://medium.com/therobinkim/how-to-read-a-git-diff-6c87a9dc47c5). Execute, em um dos seus projetos, o comando **git diff HEAD~1 HEAD** e certifique-se de que entende o resultado apresentado.
