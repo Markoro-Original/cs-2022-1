@@ -204,87 +204,85 @@ Para que todos os arquivos com a extensão .class sejam ignorados, deve ser adic
 23. jQuery é uma famosa biblioteca em JavaScript. Consulte detalhes em [jQuery](http://jquery.com). O repositório correspondente encontra-se em [gitRep](https://github.com/jquery/jquery.git). Faça o clone deste repositório.
 
 ```
-
+Escolha o diretório onde deseja clonar o repositório.
+Execute o comando $ git clone https://github.com/jquery/jquery.git
 ```
 
 24. No repositório **jqueryrepo**, criado no passo anterior, qual o efeito do comando
 **git shortlog -sne**?
 
 ```
-
+O comando irá mostrar um resumo dos log dos commits feitos, com a descrição de cada commit ocultado, o número de commits feitos por cada contribuidor, em ordem decrecente de quantidade de commits feitos e com o e-mail de cada contribuidor.
 ```
 
 25. No repositório **jqueryrepo**, qual o efeito de **git remote -v**?
 
 ```
-
+Mostra os repositórios remotos das branches monitoradas
+no caso do jqueryrepo, o resultado mostrado é:
+origin  https://github.com/jquery/jquery.git (fetch)
+origin  https://github.com/jquery/jquery.git (push)
 ```
 
 26. Um repositório Git pode ser etiquetado ao longo do tempo. Ou seja, _commits_ específicos podem ser “marcados” ou “etiquetados” para facilitar referências posteriores. Para listar todas as “etiquetas” (_tags_) estabelecidas para um dado repositório, qual comando deve ser executado?
 
 ```
-
+$ git tag
 ```
 
 27. Caso um dato repositório retorne muitas “marcas” ou “etiquetas” para o comando **git tag**, como retornar apenas aquelas que atendem a determinado padrão, por exemplo, iniciadas por 2.0?
 
 ```
-
+Para que sejam retornadas apenas etiquetas que iniciem com o padrão 2.0, basta executar o comando $ git tag -l "2.0*"
 ```
 
 28. Qual o efeito do comando **git tag -a 3.4-gold -m “minha versão ouro”**?
 
 ```
-
+Esse comando cria uma tag anotada, com o "nome" de 3.4-gold e a descrição "minha versão ouro".
 ```
 
 29. Após executado o comando acima, qual o efeito de **git show 3.4-gold**?
 
 ```
-
+É exibido o commit com a etiqueta 3.4-gold.
 ```
 
 30. O que o comando **git push origin 3.4-gold** teria como efeito?
 
 ```
-
+Faz o push do commit 3.4-gold para a origin do repositório remoto.
 ```
 
 31. Após executar um commit, qual o efeito de **git commit --amend**?
 
 ```
-
+Esse comando serve para alterar o commit feito, sem precisar fazer um novo.
 ```
 
 32. Após executar **git add x.txt**, qual o efeito de **git reset HEAD x.txt**?
 
 ```
-
+o arquivo x.txt irá ser retirado do index, mas as alterações do arquivo serão mantidos.
 ```
 
 33. Após alterar o conteúdo de um arquivo committed em passo anterior, qual o efeito do comando **git checkout -- a.txt**?
 
 ```
-
+Move o ponteiro do HEAD para um commit específico.
 ```
 
 34. Qual a diferença entre os comandos **git reset HEAD a.txt** e **git checkout -- a.txt**?
 
 ```
-
+No git reset, os arquivo a.txt é retirado do index e no git checkout, ele permanece no index.
 ```
 
 35. Veja como interpretar o resultado de git diff [aqui](https://medium.com/therobinkim/how-to-read-a-git-diff-6c87a9dc47c5). Execute, em um dos seus projetos, o comando **git diff HEAD~1 HEAD** e certifique-se de que entende o resultado apresentado.
 
 ```
-
+Esse comando é utilizado para comparar o penúltimo e último commit feitos, mostrando em detalhes os arquivos alterados e as alterações feitas.
 ```
-
-INSTRUÇÕES:
-
-1. No seu repositório pessoal, criar a pasta aula04.
-2. Commitar este arquivo respondido nesta pasta.
-3. A data limite para concluir esta tarefa é dia 07/06/2021, as 23h59min.
 
 
 
