@@ -62,7 +62,7 @@ Adiciona o arquivo b.txt à lista de arquivos monitorados e remove o arquivo a.t
   i. git reset --hard
 
 ```
-Irá descartar todas as mudanças que não foram comitadas, estando elas no index ou não.
+Irá descartar todas as mudanças que estão no index e não foram comitadas.
 ```
 
   j. git log -27
@@ -177,13 +177,16 @@ Não, pois o comando $ git add -u apenas atualiza os arquivos que já estão no 
 **git reset --hard**
 
 ```
+$ git reset --soft HEAD~1 irá cancelar o último commit e deixar as modificações no index.
+Já $ git reset --hard, irá descartar todas as modificações dentro do index.
 
+Assim, o resultado será a reversão de todas as modificações feitas no último commit.
 ```
 
 20. Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios _untracked_?
 
 ```
-
+$ git clean -fd
 ```
 
 21. Qual o nome do arquivo no qual podemos inserir a indicação para o Git de arquivos e diretórios a serem ignorados?
