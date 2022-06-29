@@ -17,6 +17,6 @@
 3. Escrever um parágrafo com suas palavras comentando o contéudo do artigo.
 
 
-**INSTRUÇÕES**
-1. Esta descrição deve ser feita em um arquivo no formato (md), denominado "tarefa007.md" e deve ser commitado no repositório pessoal utilizado para manutenção do controle de versão dos artefatos da disciplina.
-2. O prazo para entrega desta tarefa é as 18hs do dia 29/06/2022.
+**Qualidade de Programação**
+
+   A ideia principal do artigo "[Fatores de qualidade na programação](https://www.devmedia.com.br/fatores-de-qualidade-na-programacao/29780)" é mostrar quais aspectos de um software definem sua qualidade, além exemplificar métodos para obter tal qualidade. Os principais aspectos destacados no artigo são 
