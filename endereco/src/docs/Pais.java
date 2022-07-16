@@ -3,7 +3,7 @@ package src.docs;
 /**
  * Classe para representar um país.
  *
- * @author Marcos V. de Moraes
+ * @author Marcos Vinícius de Moraes
  */
 public class Pais {
     private String nome;

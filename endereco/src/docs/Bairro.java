@@ -3,7 +3,7 @@ package src.docs;
 /**
  * Classe para representar um bairro.
  *
- * @author Marcos V. de Moraes
+ * @author Marcos Vinícius de Moraes
  */
 public class Bairro {
     private String nome;

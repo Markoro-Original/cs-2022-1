@@ -3,7 +3,7 @@ package src.docs;
 /**
  * Classe para representar uma cidade.
  *
- * @author Marcos V. de Moraes
+ * @author Marcos Vinícius de Moraes
  */
 public class Cidade {
     private String nome;

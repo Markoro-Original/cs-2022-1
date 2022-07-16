@@ -3,7 +3,7 @@ package src.docs;
 /**
  * Classe para representar um endereço residencial ou comercial.
  *
- * @author Marcos V. de Moraes
+ * @author Marcos Vinícius de Moraes
  */
 public class Endereco {
     private int numero;

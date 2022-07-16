@@ -3,7 +3,7 @@ package src.docs;
 /**
  * Classe para representar uma confederação de um país.
  *
- * @author Marcos V. de Moraes
+ * @author Marcos Vinícius de Moraes
  */
 public class Estado {
     private String sigla;

@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * Classe para representar uma pessoa.
  *
- * @author Marcos V. de Moraes
+ * @author Marcos Vinícius de Moraes
  */
 public class PessoaFisica {
     private String nome;

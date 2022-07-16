@@ -3,7 +3,7 @@ package src.docs;
 /**
  * Enum pra representar os possíveis tipos de endereço.
  *
- * @author Marcos V. de Moraes
+ * @author Marcos Vinícius de Moraes
  */
 public enum TipoEndereco {
     COMERCIAL(1), RESIDENCIAL(2);
