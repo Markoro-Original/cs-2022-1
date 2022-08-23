@@ -1,4 +1,4 @@
-package refactored.extractInterface;
+package extractInterface.refactored;
 
 public interface CalculoTotal {
 

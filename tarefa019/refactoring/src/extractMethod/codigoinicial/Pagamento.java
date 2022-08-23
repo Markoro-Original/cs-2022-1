@@ -1,4 +1,4 @@
-package codigoInicial.extractMethod;
+package extractMethod.codigoinicial;
 
 public class Pagamento {
     private float salario;
@@ -10,5 +10,30 @@ public class Pagamento {
         total = comicao*vendas;
         total += salario;
         return total;
+    }
+
+    /*Getters e Setters*/
+    public float getSalario() {
+        return salario;
+    }
+
+    public void setSalario(float salario) {
+        this.salario = salario;
+    }
+
+    public float getComicao() {
+        return comicao;
+    }
+
+    public void setComicao(float comicao) {
+        this.comicao = comicao;
+    }
+
+    public int getVendas() {
+        return vendas;
+    }
+
+    public void setVendas(int vendas) {
+        this.vendas = vendas;
     }
 }
